@@ -1,6 +1,7 @@
 #!/usr/bin/python
 #file: cal.py
 import calendar
-calendar.prmonth(2016,1)
-raw_input('\n press enter to exit!')
+for x in range(1,12):
+	calendar.prmonth(2016,x)
+raw_input('\npress enter to exit!')
 
