@@ -10,4 +10,6 @@ elif userNum < 7 :
 else :
     print 'LUCKY'
 '''
-exec logicStat
+compiledCode = compile(logicStat, '<string>', 'exec')
+exec compiledCode
+
